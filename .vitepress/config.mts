@@ -56,7 +56,36 @@ export default defineConfig({
               { text: 'Maven', link: '/Maven/' },
               { text: 'VuePress', link: '/VuePress/' },
             ]
-          }
+          },
+          {
+            //也能省略
+            text: 'Android',
+            items: [
+              { text: 'Android', link: '/Android/' },
+              { text: 'Android Studio', link: '/Android/AS/' },
+            ]
+          },
+        ]
+      },
+      {
+        text: 'Kotlin -> Basics',
+        items: [
+          {
+            //也能省略
+            text: 'Navigation',
+            items: [
+              { text: 'Navigation', link: '/Kotlin/' },
+            ]
+          },
+          {
+            //也能省略
+            text: 'Basics',
+            items: [
+              { text: 'Basic syntax', link: '/Kotlin/Basics/' },
+              { text: 'Idioms', link: '/Kotlin/Basics/Idioms' },
+              { text: 'Kotlin by example', link: '/Kotlin/Basics/Kotlin by example/' },
+            ]
+          },
         ]
       },
     ],

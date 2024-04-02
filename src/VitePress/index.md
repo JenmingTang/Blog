@@ -2,6 +2,11 @@
 >以下为简介部分（简短一个md文件描述完，写作部分开始细分）  
 >写作部分请移步[Writing](./Writing/)
 # Introduction
+## Getting Started
+:::danger
+npx vitepress init
+npm add -D vitepress
+:::
 ## Routing
 ### File-Based Routing
 ```
@@ -70,6 +75,12 @@ npm run docs:preview
 ### 设定 public 根目录
 例：如果你使用的是 Github（或 GitLab）页面并部署到 user.github.io/repo/，请将 base 设置为 /repo/。
 ### GitHub Pages
+
+:::danger
+Pages 用VitePress官方的方式有错误，对比了是配置pages有问题，版本可能低了
+Path: project setting > GitHub Pages > Build and deployment with Actions > choose static.yaml
+:::
+
 在项目的 .github/workflows 目录中创建一个名为 deploy.yml 的文件，其中包含这样的内容：
 ```yaml
 # 构建 VitePress 站点并将其部署到 GitHub Pages 的示例工作流程
