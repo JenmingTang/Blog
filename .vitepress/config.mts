@@ -45,12 +45,30 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Cloud Service',
+        items: [
+          {
+            text: 'Tencent',
+            items: [
+              { text: 'Tencent', link: '/Cloud Service/Tencent/' },
+            ]
+          },
+          {
+            text: 'Alibaba',
+            items: [
+              { text: 'Alibaba', link: '/Cloud Service/Alibaba/' },
+            ]
+          },
+        ]
+      },
+      {
         text: 'Navigation',
         items: [
           {
             //也能省略
             text: 'Navigation Items (Omitable)',
             items: [
+              { text: 'Issue', link: '/Issue/' },
               { text: 'OSActivation', link: '/OSActivation/' },
               { text: 'Jackson', link: '/Jackson/' },
               { text: 'Maven', link: '/Maven/' },
@@ -63,6 +81,7 @@ export default defineConfig({
             items: [
               { text: 'Android', link: '/Android/' },
               { text: 'Android Studio', link: '/Android/AS/' },
+              { text: 'Coroutines', link: '/Kotlin/Miscellaneous' },
             ]
           },
         ]
@@ -84,6 +103,13 @@ export default defineConfig({
               { text: 'Basic syntax', link: '/Kotlin/Basics/' },
               { text: 'Idioms', link: '/Kotlin/Basics/Idioms' },
               { text: 'Kotlin by example', link: '/Kotlin/Basics/Kotlin by example/' },
+            ]
+          },
+          {
+            //也能省略
+            text: 'Miscellaneous',
+            items: [
+              { text: 'Miscellaneous', link: '/Kotlin/Miscellaneous' },
             ]
           },
         ]
