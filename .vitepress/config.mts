@@ -39,12 +39,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       {
-        text: 'VitePress',
-        items: [
-          { text: 'VitePress', link: '/VitePress/' },
-        ]
-      },
-      {
         text: 'Cloud Service',
         items: [
           {
@@ -73,12 +67,14 @@ export default defineConfig({
               { text: 'Jackson', link: '/Jackson/' },
               { text: 'Maven', link: '/Maven/' },
               { text: 'VuePress', link: '/VuePress/' },
+              { text: 'VitePress', link: '/VitePress/' },
             ]
           },
           {
             //也能省略
             text: 'Android',
             items: [
+              { text: 'Compose', link: '/Android/Compose/' },
               { text: 'Android', link: '/Android/' },
               { text: 'Android Studio', link: '/Android/AS/' },
               { text: 'Coroutines', link: '/Kotlin/Miscellaneous' },
