@@ -4,7 +4,7 @@
 
 ## IDEA
 
-:::danger push代码报错SEC_E_UNTRUSTED_ROOT
+:::danger push代码报错schannel: SEC_E_UNTRUSTED_ROOT (0x80090325) - The certificate chain was issued by an authority that is not trusted.
 😀删掉cookie刷新网页  
 😁搜索GitHub hosts关键字
 :::
