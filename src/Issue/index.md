@@ -7,9 +7,13 @@
 :::danger push代码报错 schannel: SEC_E_UNTRUSTED_ROOT (0x80090325) - The certificate chain was issued by an authority that is not trusted. 此错误将会影响所以使用git
 😁搜索GitHub hosts关键字  
 修改hosts文件前修改win用户对该文件的权限  
+C:\Windows\System32\drivers\etc  
 DNS域名搜索github.com和api.github.com  
 20.205.243.166 github.com  
 20.205.243.168 api.github.com
+:::
+:::danger SSL certificate problem: self-signed certificate
+git config --global http.sslVerify false
 :::
 
 :::warning 显示Untrusted Server's Certificate sh证书文件
@@ -19,6 +23,10 @@ DNS域名搜索github.com和api.github.com
 
 ## Git
 
+:::danger schannel: failed to receive handshake, SSL/TLS connection failed
+默认是哪一个不记得了，新git环境时可以看下  
+git config --global http.sslBackend "openssl"
+:::
 :::danger
 绝对不能在项目出现Git Access Token
 :::
