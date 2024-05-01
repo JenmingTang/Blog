@@ -58,16 +58,25 @@ export default defineConfig({
       {
         text: 'Navigation',
         items: [
+          // {
+          //   //也能省略
+          //   text: 'IDEA',
+          //   items: [
+          //     { text: 'IDEA', link: '/IDEA/' },
+          //   ]
+          // },
           {
             //也能省略
-            text: 'Navigation Items (Omitable)',
+            text: 'Docker',
+            items: [
+              { text: 'Docker', link: '/Docker/' },
+            ]
+          },
+          {
+            //也能省略
+            text: 'Issue',
             items: [
               { text: 'Issue', link: '/Issue/' },
-              { text: 'OSActivation', link: '/OSActivation/' },
-              { text: 'Jackson', link: '/Jackson/' },
-              { text: 'Maven', link: '/Maven/' },
-              { text: 'VuePress', link: '/VuePress/' },
-              { text: 'VitePress', link: '/VitePress/' },
             ]
           },
           {
@@ -78,6 +87,18 @@ export default defineConfig({
               { text: 'Android', link: '/Android/' },
               { text: 'Android Studio', link: '/Android/AS/' },
               { text: 'Coroutines', link: '/Kotlin/Miscellaneous' },
+            ]
+          },
+          {
+            //也能省略
+            text: 'Navigation Items (Omitable)',
+            items: [
+              { text: 'Issue', link: '/Issue/' },
+              { text: 'OSActivation', link: '/OSActivation/' },
+              { text: 'Jackson', link: '/Jackson/' },
+              { text: 'Maven', link: '/Maven/' },
+              { text: 'VuePress', link: '/VuePress/' },
+              { text: 'VitePress', link: '/VitePress/' },
             ]
           },
         ]

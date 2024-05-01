@@ -2,6 +2,18 @@
 
 # Issue
 
+## IDEA
+
+:::danger push代码报错SEC_E_UNTRUSTED_ROOT
+😀删掉cookie刷新网页  
+😁搜索GitHub hosts关键字
+:::
+
+:::warning 显示Untrusted Server's Certificate sh证书文件
+起因：使用了学习版IDEA，在本地hosts配置了映射，然后idea检测出来弹出警告 服务器证书不可用  
+解决：不让他弹出的方法。打开idea--->file-->Settings然后搜索Server Certificates把下图中的选项勾上就ok
+:::
+
 ## Git
 
 :::danger
@@ -25,4 +37,11 @@ git pull --rebase --tags origin main
 :::danger
 Pages 用VitePress官方的方式有错误，对比了是配置pages有问题，版本可能低了
 Path: project setting > GitHub Pages > Build and deployment with Actions > choose static.yaml
+:::
+
+## Edge
+
+:::danger 访问GitHub.com显示证书无效
+😀删掉cookie刷新网页  
+😁搜索GitHub hosts关键字
 :::
