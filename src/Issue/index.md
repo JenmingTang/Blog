@@ -12,9 +12,6 @@ DNS域名搜索github.com和api.github.com
 20.205.243.166 github.com  
 20.205.243.168 api.github.com
 :::
-:::danger SSL certificate problem: self-signed certificate
-git config --global http.sslVerify false
-:::
 
 :::warning 显示Untrusted Server's Certificate sh证书文件
 起因：使用了学习版IDEA，在本地hosts配置了映射，然后idea检测出来弹出警告 服务器证书不可用  
@@ -27,6 +24,12 @@ git config --global http.sslVerify false
 默认是哪一个不记得了，新git环境时可以看下  
 git config --global http.sslBackend "openssl"
 :::
+
+:::danger 设置http.sslBackend "openssl"后出现 SSL certificate problem: self-signed certificate
+git config --global http.sslVerify false
+:::
+
+
 :::danger
 绝对不能在项目出现Git Access Token
 :::
