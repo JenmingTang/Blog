@@ -4,9 +4,12 @@
 
 ## IDEA
 
-:::danger push代码报错schannel: SEC_E_UNTRUSTED_ROOT (0x80090325) - The certificate chain was issued by an authority that is not trusted.
-😀删掉cookie刷新网页  
-😁搜索GitHub hosts关键字
+:::danger push代码报错 schannel: SEC_E_UNTRUSTED_ROOT (0x80090325) - The certificate chain was issued by an authority that is not trusted. 此错误将会影响所以使用git
+😁搜索GitHub hosts关键字  
+修改hosts文件前修改win用户对该文件的权限  
+DNS域名搜索github.com和api.github.com  
+20.205.243.166 github.com  
+20.205.243.168 api.github.com
 :::
 
 :::warning 显示Untrusted Server's Certificate sh证书文件
@@ -42,6 +45,6 @@ Path: project setting > GitHub Pages > Build and deployment with Actions > choos
 ## Edge
 
 :::danger 访问GitHub.com显示证书无效
-😀删掉cookie刷新网页  
+😀删掉cookie刷新网页或  
 😁搜索GitHub hosts关键字
 :::
